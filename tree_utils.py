@@ -111,7 +111,7 @@ def print_tree(root):
             int(root.GetChildAtIndex(1).GetValue(), 16) != 0):
         print_tree(root.GetChildAtIndex(1))
 
-    print root.GetChildAtIndex(0).GetSummary()
+    print(root.GetChildAtIndex(0).GetSummary())
 
     if (root.GetChildAtIndex(2).GetValue() is not None) and (
             int(root.GetChildAtIndex(2).GetValue(), 16) != 0):
