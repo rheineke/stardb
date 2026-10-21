@@ -1,5 +1,5 @@
 # stardb
-Debugging utilities for C++ and Python using LLDB and iPython
+Debugging utilities for C++ and Python using LLDB
 
 ## Introduction ##
 
