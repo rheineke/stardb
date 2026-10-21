@@ -5,7 +5,6 @@ import importlib
 import pytest
 
 MODULES = [
-    "ipsh",
     "tree_utils",
 ]
 
