@@ -1,10 +1,10 @@
 # stardb
-Debugging utilities for C++ and Python using LLDB and iPython
+Debugging utilities for C++ and Python using LLDB
 
 ## Introduction ##
 
 A significant amount of any developer's time is spent identifying and resolving
-programming issues. Debugging tools play a vital role in this process so a 
+programming issues. Debugging tools play a vital role in this process so a
 developer with effective and time-efficient tools will be more useful. This
 repository contains code to enhance debugging in Python and C++, and hence the
 name stardb: * debugger.
@@ -12,3 +12,20 @@ name stardb: * debugger.
 ## Python ##
 
 ## C++ ##
+
+## Setup
+```zsh
+conda env create -f environment.yaml
+conda activate stardb
+pre-commit install
+```
+
+and
+```shell
+pip install -e ".[dev,test]"
+```
+
+## Tests
+```shell
+pytest
+```
