@@ -90,3 +90,10 @@ ENV/
 
 # IDEA project settings
 .idea
+
+# Build, tool and environment caches
+.venv/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
